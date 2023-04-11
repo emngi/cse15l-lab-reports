@@ -1,7 +1,7 @@
 ## Installing VS Code
 1. Head to the [VS Code website](https://code.visualstudio.com/)
 2. Click on the Download button (make sure it is for the correct operating system)
-![Image](<https://github.com/emngi/cse15l-lab-reports/blob/main/vs.png>)
+![Image](<https://github.com/emngi/cse15l-lab-reports/blob/main/vs.png?raw=true>)
 4. Follow the directions for the installer!
 5. Open the desktop shortcut or where ever you have downloaded the application and enjoy :P
 
@@ -9,7 +9,7 @@
 1. Open the VS code application
 2. Open a new terminal by
     - clicking the button at the top right
-    ![Image](<https://github.com/emngi/cse15l-lab-reports/blob/main/term.png>)
+    ![Image](<https://github.com/emngi/cse15l-lab-reports/blob/main/term.png?raw=true>)
     - using the keyboard shortcut *Ctrl + Shift + `*
     - or navigating the menu bar *Terminal > New Terminal*
 3. In the terminal type the following:
@@ -25,4 +25,4 @@
     - pwd
     - cd <path> 
 Some examples of output for the commands are:
-![Image](<https://github.com/emngi/cse15l-lab-reports/blob/main/cmds.png>)
+![Image](<https://github.com/emngi/cse15l-lab-reports/blob/main/cmds.png?raw=true>)
