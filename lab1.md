@@ -14,15 +14,20 @@
     - or navigating the menu bar *Terminal > New Terminal*
 3. In the terminal type the following:
 `ssh cs15lsp23XX@ieng6.ucsd.edu (Xs should be ur own ID letters)`
-4. Answer the prompt *if applicable* 
-5. Enter password *you will not be able to see what you are typing*
-6. You should see a succsessful connection in the terminal!
+4. Answer the prompt yes/no/[fingerprint] *if applicable* 
+        - usually you should just have to type in yes once (if prompted to do this on a server you connect to often it might be cause for concern)
+6. Enter password *you will not be able to see what you are typing*
+7. You should see a succsessful connection in the terminal!
 
 ## Trying Commands
 1. In a remote or local terminal try using some of the commands we learned in class
     - cat <path 1> <path 2> ...
+    this command stands for concatenate and can be used to view content of files
     - ls <path>
+    this command prints a list of everything inside a directory
     - pwd
-    - cd <path> 
+    this command prints the full path name of your current directory 
+    - cd <path>
+    this command can be used to change the current working directory
 Some examples of output for the commands are:
 ![Image](<https://github.com/emngi/cse15l-lab-reports/blob/main/cmds.png?raw=true>)
