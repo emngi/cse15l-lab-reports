@@ -26,4 +26,5 @@
     - pwd | this command prints the full path name of your current directory 
     - cd <path> | this command can be used to change the current working directory
 Some examples of output for the commands are:
+    
 ![Image](<https://github.com/emngi/cse15l-lab-reports/blob/main/cmds.png?raw=true>)
