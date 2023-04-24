@@ -21,13 +21,9 @@
 
 ## Trying Commands
 1. In a remote or local terminal try using some of the commands we learned in class
-    - cat <path 1> <path 2> ...
-    this command stands for concatenate and can be used to view content of files
-    - ls <path>
-    this command prints a list of everything inside a directory
-    - pwd
-    this command prints the full path name of your current directory 
-    - cd <path>
-    this command can be used to change the current working directory
+    - cat <path 1> <path 2> ... | this command stands for concatenate and can be used to view content of files
+    - ls <path> | this command prints a list of everything inside a directory
+    - pwd | this command prints the full path name of your current directory 
+    - cd <path> | this command can be used to change the current working directory
 Some examples of output for the commands are:
 ![Image](<https://github.com/emngi/cse15l-lab-reports/blob/main/cmds.png?raw=true>)
