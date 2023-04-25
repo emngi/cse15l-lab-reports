@@ -27,3 +27,4 @@
     - cd <path> | this command can be used to change the current working directory
 Some examples of output for the commands are:
 ![Image](images/cmds.png)
+Output will depend on many factors like your current directory etc
