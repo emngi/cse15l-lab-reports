@@ -40,7 +40,7 @@ technical/government/Gen_Account_Office/pe1019.txt
 - Example 2
   -This example is useful for looking for small files, this one is looking at files less than 3KBs.
 ```java
-find technical -type f -size -3k 
+$ find technical -type f -size -3k 
 technical/government/Media/Campaign_Pays.txt
 technical/government/Media/Court_Keeps_Judge_From.txt
 technical/government/Media/Fire_Victims_Sue.txt
@@ -67,8 +67,50 @@ technical/plos/pmed.0020226.txt
  $ find technical -type f -mtime -7
 ```
 - Example 2
-  - This example searcged for files modified more than 30 days ago in the technical directory and its subdirectories. Again returned nothing. So given these two results everting has been modified within the last 30 days but not since a week.
+  - This example searched for files modified more than 30 days ago in the technical directory and its subdirectories. Again returned nothing. So given these two results everting has been modified within the last 30 days but not since a week.
 ``` java
-find technical -type f -mtime +30
+$ find technical -type f -mtime +30
 ```
-3. 
+3. `-name` (search by file name) | [Source](http://linuxcommand.org/lc3_man_pages/find1.html) 
+- This option searches for files or directories that match the specified name.
+- Example 1
+  - This example searches for any .txt files that end with economy. This might be useful to find similar files and if you dont fully remembe the file's name.
+```java
+$ find -name "*_economy.txt"
+./technical/government/Media/Weak_economy.txt
+```
+- Example 2
+  - This example searches for any.txt files starting with chapter. This is useful to see all chapters listed out.
+```java
+$ find -name "chapter*.txt"
+./technical/911report/chapter-1.txt
+./technical/911report/chapter-10.txt
+./technical/911report/chapter-11.txt
+./technical/911report/chapter-12.txt
+./technical/911report/chapter-13.1.txt
+./technical/911report/chapter-13.2.txt
+./technical/911report/chapter-13.3.txt
+./technical/911report/chapter-13.4.txt
+./technical/911report/chapter-13.5.txt
+./technical/911report/chapter-2.txt
+./technical/911report/chapter-3.txt
+./technical/911report/chapter-5.txt
+./technical/911report/chapter-6.txt
+./technical/911report/chapter-7.txt
+./technical/911report/chapter-8.txt
+./technical/911report/chapter-9.txt
+```
+4. -user (search by file owner) | [Source](http://linuxcommand.org/lc3_man_pages/find1.html) 
+- This option searches for files that are owned by the specified user.
+- Example 1
+  -  This example searches for files owned by user "emily". No files returned. This is useful if you have many different user's files in a directory.
+```java
+$ find technical  -user emily
+find: 'emily' is not the name of a known user
+```
+- Example 2
+  - This example searches for files owned by the user "jpolitz". No files returned. Again useful for finding a specific user's files, especially when there are a lot of collaborators like in this class.
+```java
+$ find technical  -user jpolitz   
+find: 'jpolitz' is not the name of a known user
+```
