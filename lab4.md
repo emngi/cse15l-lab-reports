@@ -46,7 +46,7 @@ $ /index1 <Enter> n n n n n n n n n l l l l l r 2 <Esc> :wq
 ---
   
 ## 6. Commit and push the resulting change to your Github account (you can pick any commit message!)
-     * I use <tab> twice to autofill L to `ListExamples.java`. `git add` adds ListExamples.java to what is going to be committing, `git commit` commits it.  
+   * I use `<tab>` twice to autofill L to `ListExamples.java`. `git add` adds ListExamples.java to what is going to be committing, `git commit` commits it.  
   ```java
   $ git add L<Tab>.j<Tab> <Enter>
   $ git commit -m Done! <Enter>
