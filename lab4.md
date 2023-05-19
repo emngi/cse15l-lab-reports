@@ -3,7 +3,7 @@
 
 ## 1. Log into ieng6
 
-   * I used `Ctrl + C` and `Ctrl + V` to copy credentials from notes
+   * I used `Ctrl + C` and `Ctrl + V` to copy credentials from notes. This step logs into the remote account.
   ``` java
   $ ssh cs15lsp23cw@ieng6.ucsd.edu <Enter>
   (cs15lsp23cw@ieng6.ucsd.edu) Password: <Paste or type password and hit Enter>
@@ -13,14 +13,14 @@
 ---
   
 ## 2. Clone your fork of the repository from your Github account
-   * I used `Ctrl + C` and `Ctrl + V` to copy this command from the lab write up
+   * I used `Ctrl + C` and `Ctrl + V` to copy this command from the lab write up. `git clone` clones the entire repo into my remote account.
 ``` java
 $ git clone https://github.com/emngi/lab7.git <Enter>
 ```
 ![Image](lab4/step2.png)
 ---
 ## 3. Run the tests, demonstrating that they fail
-   * I used tab to autocomplete t into `test.sh` 
+   * I used tab to autocomplete t into `test.sh`. CD changed the directory I was in and bash ran the commands in the file test.sh.
 ```java
 $ cd lab7 <Enter>
 $ bash t<Tab> <Enter>
@@ -28,7 +28,7 @@ $ bash t<Tab> <Enter>
 ![Image](lab4/step3.png)
 --- 
 ## 4. Edit the code file to fix the failing test
-   * I use <tab> twice to autofill L to `ListExamples.java`
+   * I use <tab> twice to autofill L to `ListExamples.java`. Using vim as an editor, `/index1` searches for all instances of index1 and n and l 
 ```java
 $ vim L<tab>.j<tab> <Enter>
 $ /index1 <Enter> n n n n n n n n n l l l l l r 2 <Esc> :wq
