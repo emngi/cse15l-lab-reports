@@ -52,5 +52,5 @@ $ /index1 <Enter> n n n n n n n n n l l l l l r 2 <Esc> :wq
   $ git commit -m Done! <Enter>
   $ git push origin
  ```
-  ![Image](lab4/step6.png)
+![Image](lab4/step6.png)
   
