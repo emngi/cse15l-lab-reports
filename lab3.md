@@ -1,5 +1,5 @@
 # Lab Report 3
-I chose the find command. 
+I chose the find command. This command searches for files within a directory of folder. It's very useful when searching for a specific file in a large repository.
 
 1. `-size` (search by file size) | [Source](http://linuxcommand.org/lc3_man_pages/find1.html) 
 - This option searches for files that match the specified size.
