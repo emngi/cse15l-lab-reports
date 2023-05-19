@@ -28,7 +28,7 @@ $ bash t<Tab> <Enter>
 ![Image](lab4/step3.png)
 --- 
 ## 4. Edit the code file to fix the failing test
-   * I use <tab> twice to autofill L to `ListExamples.java`. Using vim as an editor, `/index1` searches for all instances of index1 and n and l 
+   * I use <tab> twice to autofill L to `ListExamples.java`. Using vim as an editor, `/index1` searches for all instances of index1. n and l are used to move around the file and then I used r 2 to replace the 1 with 2. ESC ensures you are in normal mode and :wq saves and exit.
 ```java
 $ vim L<tab>.j<tab> <Enter>
 $ /index1 <Enter> n n n n n n n n n l l l l l r 2 <Esc> :wq
@@ -38,6 +38,7 @@ $ /index1 <Enter> n n n n n n n n n l l l l l r 2 <Esc> :wq
 --- 
   
 ## 5. Run the tests, demonstrating that they now succeed
+  * bash runs the tests in the test.sh file
 `$ bash t<tab>`
   
 ![Image](lab4/step5.png)
@@ -45,7 +46,7 @@ $ /index1 <Enter> n n n n n n n n n l l l l l r 2 <Esc> :wq
 ---
   
 ## 6. Commit and push the resulting change to your Github account (you can pick any commit message!)
-     * I use <tab> twice to autofill L to `ListExamples.java`
+     * I use <tab> twice to autofill L to `ListExamples.java`. `git add` adds ListExamples.java to what is going to be committing, `git commit` commits it.  
   ```java
   $ git add L<Tab>.j<Tab> <Enter>
   $ git commit -m Done! <Enter>
