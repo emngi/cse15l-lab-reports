@@ -20,7 +20,7 @@ $ git clone https://github.com/emngi/lab7.git <Enter>
 ![Image](lab4/step2.png)
 ---
 ## 3. Run the tests, demonstrating that they fail
-   * I used tab to autocomplete t into `test.sh`. CD changed the directory I was in and bash ran the commands in the file test.sh.
+   * I used `<tab>` to autocomplete t into `test.sh`. CD changed the directory I was in and bash ran the commands in the file test.sh.
 ```java
 $ cd lab7 <Enter>
 $ bash t<Tab> <Enter>
@@ -28,7 +28,7 @@ $ bash t<Tab> <Enter>
 ![Image](lab4/step3.png)
 --- 
 ## 4. Edit the code file to fix the failing test
-   * I use <tab> twice to autofill L to `ListExamples.java`. Using vim as an editor, `/index1` searches for all instances of index1. n and l are used to move around the file and then I used r 2 to replace the 1 with 2. ESC ensures you are in normal mode and :wq saves and exit.
+   * I use `<tab>` twice to autofill L to `ListExamples.java`. Using vim as an editor, `/index1` searches for all instances of index1. n and l are used to move around the file and then I used r 2 to replace the 1 with 2. ESC ensures you are in normal mode and :wq saves and exit.
 ```java
 $ vim L<tab>.j<tab> <Enter>
 $ /index1 <Enter> n n n n n n n n n l l l l l r 2 <Esc> :wq
